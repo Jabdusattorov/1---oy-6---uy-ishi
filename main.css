@@ -1,0 +1,181 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    background-color: rgb(9, 4, 29);
+    margin: 0 auto;
+}
+.navbar{
+    display: inline-block;
+    padding: 10px 200px;
+    background-color: rgb(11, 5, 34);
+}
+.navbar div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-menu{
+    margin-left: 50px;
+}
+.nav-menu a{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.nav-but{
+    text-align: right;
+    width: 300px;
+}
+.nav-but a{
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background-color: rgb(25, 25, 153);
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-first{
+    display: inline-block;
+    margin: 0px 100px 50px 200px;
+}
+.element-first{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+}
+.img-first{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-left: 50px;
+}
+.but-first{
+    padding-top: 30px;
+}
+.but-first a{
+    text-decoration: none;
+    background-color: #3A68B8;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    margin: 0px 20px 0px 0px;
+}
+.but-first img{
+    height: 17px;
+}
+.logos{
+    text-align: center;
+    padding: 30px 200px 50px 200px;
+}
+.logos img{
+    width: 100%;
+}
+
+.section-sec{
+    display: inline-block;
+    background-color: rgb(6, 3, 21);
+    width: 100%;
+    padding: 50px 200px 50px 150px;
+    box-sizing: border-box;
+}
+.img-sec{
+    display: inline-block;
+    vertical-align: middle;
+}
+.img-sec img{
+    width: 500px;
+}
+.element-sec{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+.element-sec a{
+    background-color: #3A68B8;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.blocks{
+    display: inline-block;
+    background-color: rgb(6, 3, 21);
+    padding-top: 70px;
+}
+.block{
+    display: inline-block;
+    background-color: rgba(42, 42, 42, 0.341);
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+.block img{
+    height: 70px;
+}
+.block p{
+    color: grey;
+    font-size: small;
+}
+.block:nth-child(3){
+    margin: 0px 51px;
+}
+.block:nth-child(2){
+    margin-left: 51px;
+}
+.block:nth-child(4){
+    margin-right: 51px;
+}
+
+.section-third{
+    display: inline-block;
+    background-color: rgb(6, 3, 21);
+    width: 100%;
+    padding: 120px 270px;
+}
+.element-third{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.element-third p{
+    color: grey;
+    font-size: small;
+}
+.img-third{
+    display: inline-block;
+    vertical-align: top;
+}
+.img-third img{
+    width: 450px;
+}
+
+.footer{
+    display: inline-block;
+    padding: 50px 160px;
+}
+.footer>div{
+    display: inline-block;
+    margin: 0px 10px;
+    vertical-align: top;
+}
+.footer div p{
+    color: grey;
+}
+.footer div a{
+    color: grey;
+    text-decoration: none;
+}
+h4{
+    color: white;
+    font-weight: 600;
+}
